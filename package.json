@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "zeroshotjs",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
   "type": "module",
@@ -9,6 +9,7 @@
   "devDependencies": {
     "@types/jest": "~29.5",
     "@types/node": "~18",
+    "@types/sjcl": "^1.0.30",
     "@typescript-eslint/eslint-plugin": "~6.2",
     "@typescript-eslint/parser": "~6.2",
     "eslint": "~8.46",
@@ -36,6 +37,9 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "axios": "^1.4.0",
+    "onnxruntime-node": "^1.15.1",
+    "sjcl": "^1.0.8",
     "tslib": "~2.6"
   },
   "volta": {

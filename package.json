@@ -38,7 +38,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.4.0",
+    "jimp": "^0.22.10",
     "onnxruntime-node": "^1.15.1",
+    "onnxruntime-web": "^1.15.1",
     "sjcl": "^1.0.8",
     "tslib": "~2.6"
   },
